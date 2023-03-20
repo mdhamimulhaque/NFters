@@ -57,4 +57,8 @@
   .search-input {
     @apply max-w-[300px] w-full rounded-full bg-transparent outline-none border-2 border-line_gray text-light_gray py-3.5 px-7 text-base font-medium;
   }
+
+  .section-area-grid {
+    @apply grid grid-cols-12 gap-10 max-w-[1229px] w-full mx-auto px-5;
+  }
 }
