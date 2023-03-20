@@ -10,10 +10,10 @@ import Level from '../../../assets/images/label.png';
 
 const TopHeroSection = () => {
     return (
-        <div className='grid grid-cols-2 max-w-[1229px] w-full mx-auto'>
-            <section>
-                <h1 className='max-w-[612px] w-full'>Discover, and collect Digital Art  NFTs </h1>
-                <p className='max-w-[471px] w-full text-xl text-deep_gray font-DMSans pt-5 pb-10'>Digital marketplace for crypto collectibles and non-fungible tokens (NFTs). Buy, Sell, and discover exclusive digital assets.</p>
+        <div className='grid grid-cols-12 gap-10 max-w-[1229px] w-full mx-auto'>
+            <section className='col-span-12 lg:col-span-5 xl:col-span-6'>
+                <h1 className='max-w-[320px] md:max-w-[612px] w-full'>Discover, and collect Digital Art  NFTs </h1>
+                <p className='max-w-[320px] md:max-w-[471px] w-full text-lg md:text-xl text-deep_gray font-DMSans pt-5 pb-10'>Digital marketplace for crypto collectibles and non-fungible tokens (NFTs). Buy, Sell, and discover exclusive digital assets.</p>
                 <PrimaryCommonLargeButton>Explore Now</PrimaryCommonLargeButton>
                 <article className='flex flex-wrap gap-4 mt-[30px]'>
                     <span>
@@ -31,44 +31,44 @@ const TopHeroSection = () => {
                 </article>
             </section>
 
-            <section className='flex justify-end'>
-                <div className="card_img_1 z-10 relative">
-                    <div className='relative'>
-                        <img src={Img1} alt="img" />
-                        <div className="user_info absolute top-6 left-6 text-white">
-                            <h2>Abstr Gradient NFT</h2>
-                            <div className='flex items-center gap-3 '>
-                                <img src={User} alt="img" />
-                                <h4>Arkhan17</h4>
-                            </div>
-                        </div>
-                        <div className='bg-glass max-w-[348px] w-full rounded-md p-5 flex justify-between items-center absolute bottom-5 left-1/2 -translate-x-1/2'>
-                            <div >
-                                <h4>Current Bid</h4>
-                                <div className='flex gap-3'>
-                                    <img src={Icon1} alt="img" />
-                                    <span>0.25 ETH</span>
+            <section className='col-span-12 lg:col-span-7 xl:col-span-6'>
+                <div className='flex justify-start md:justify-center xl:justify-end'>
+                    <div className="card_img_1 z-10 relative">
+                        <div className='relative'>
+                            <img src={Img1} alt="img" className='object-cover w-[320px] md:w-auto' />
+                            <div className="user_info absolute top-6 left-6 text-white">
+                                <h2>Abstr Gradient NFT</h2>
+                                <div className='flex items-center gap-3 '>
+                                    <img src={User} alt="img" />
+                                    <h4>Arkhan17</h4>
                                 </div>
                             </div>
-                            <div>
-                                <h4>Ends in</h4>
-                                <div className='font-bold text-DMSans flex gap-3 text-white'>
-                                    <span>12h</span>
-                                    <span>43m</span>
-                                    <span>42s</span>
+                            <div className='bg-glass max-w-[348px] w-full rounded-md p-5 flex justify-between items-center absolute bottom-5 left-1/2 -translate-x-1/2'>
+                                <div >
+                                    <h4>Current Bid</h4>
+                                    <div className='flex gap-3'>
+                                        <img src={Icon1} alt="img" />
+                                        <span>0.25 ETH</span>
+                                    </div>
+                                </div>
+                                <div>
+                                    <h4>Ends in</h4>
+                                    <div className='font-bold text-DMSans flex gap-3 text-white'>
+                                        <span>12h</span>
+                                        <span>43m</span>
+                                        <span>42s</span>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div className='absolute left-[-65px] bottom-28'>
-                            <img src={Level} alt="img" />
-                        </div>
+                            <div className='absolute left-[-25px] md:left-[-65px] bottom-28'>
+                                <img src={Level} alt="img" className='w-16 md:w-full' />
+                            </div>
 
+                        </div>
+                        <img src={Img2} alt="img" className='absolute top-5 left-[30px] md:top-6 md:left-[82px] z-[-10] object-cover' />
+                        <img src={Img3} alt="img" className='absolute  left-[70px] top-12 md:left-[164px] z-[-20] object-cover' />
                     </div>
-                    <img src={Img2} alt="img" className='absolute top-6 left-[82px] z-[-10]' />
-                    <img src={Img3} alt="img" className='absolute top-12 left-[164px] z-[-20]' />
                 </div>
-
-
             </section>
         </div>
     );
