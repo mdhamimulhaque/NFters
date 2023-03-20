@@ -1,4 +1,5 @@
 import React from 'react';
+import CollectionFeatures from './CollectionFeatures/CollectionFeatures';
 import TopCollections from './TopCollections/TopCollections';
 import TopHeroSection from './TopHeroSection/TopHeroSection';
 import TransactionSection from './TransactionSection/TransactionSection';
@@ -9,6 +10,7 @@ const Home = () => {
             <TopHeroSection />
             <TransactionSection />
             <TopCollections />
+            <CollectionFeatures />
         </div>
     );
 };
