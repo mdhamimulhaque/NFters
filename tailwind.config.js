@@ -18,13 +18,18 @@ module.exports = {
         light_text: "#363639",
         liter_text: "#757575",
         dark_Gray_text: "#3A3A3A",
-        custom_green: "#00AC4F"
+        custom_green: "#00AC4F",
+        collection_border: "#ECECEC",
+        collection_text: "#636363",
+        collection_text_color1: "#14C8B0",
+        collection_text_color2: "#FF002E",
       },
 
       fontFamily: {
         DMSans: ["DM Sans", "sans-serif"],
         Roboto: ["Roboto", "sans-serif"],
-        IntegralCF: ["Integral CF", "sans-serif"],
+        Poppins: ["Poppins", "sans-serif"],
+        IntegralCF: ["Integral CF", "Poppins"],
         AvertaDemoPE: ["Averta Demo PE Cutted Demo", "sans-serif"],
       },
       animation: {

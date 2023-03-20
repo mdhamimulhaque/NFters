@@ -7,7 +7,7 @@ const TransactionSection = () => {
         <div className='bg-light_bg mt-[120px] py-[130px] xl:px-[120px]'>
             <div className='md:section-area-grid px-5'>
                 <section className="col-span-12 md:col-span-12 xl:col-span-4 mb-12 md:mb-0">
-                    <h2 className='font-IntegralCF'>The amazing NFT art of the world here</h2>
+                    <h2 className='font-IntegralCF text-center xl:text-start'>The amazing NFT art of the world here</h2>
                 </section>
                 <section className="col-span-12 md:col-span-6 xl:col-span-4 flex gap-3 mb-8 md:mb-0">
                     <span>
