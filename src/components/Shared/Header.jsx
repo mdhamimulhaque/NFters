@@ -36,7 +36,7 @@ const Header = () => {
         }
     ]
     return (
-        <header className="border border-b-[1px] border-line_gray px-5 xl:px-[120px]  flex justify-between py-10">
+        <header className="w-full border-b-[1px] border-line_gray px-5 xl:px-[120px]  flex justify-center py-10">
             <section className='logo_area flex items-center w-full lg:w-auto justify-between lg:gap-8 xl:gap-16'>
                 <Link to='/'>
                     <img src={Logo} alt="logo" />

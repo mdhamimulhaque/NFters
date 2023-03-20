@@ -6,7 +6,10 @@ const Main = () => {
     return (
         <div>
             <Header />
-            <Outlet />
+            <main className='px-5 xl:px-[120px] py-10'>
+                <Outlet />
+            </main>
+
         </div>
     );
 };

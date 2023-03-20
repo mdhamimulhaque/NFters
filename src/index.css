@@ -8,7 +8,7 @@
 /* ---fonts--- */
 @font-face {
   font-family: "Integral CF";
-  src: url("./assets/fonts/Fontspring-DEMO-integralcf-bold.otf");
+  src: url("./assets/fonts/FontsFree-Net-Integral-CF-Regular.ttf");
 }
 
 @font-face {
@@ -19,15 +19,15 @@
 /* ---tags--- */
 @layer base {
   h1 {
-    @apply text-[40px];
+    @apply text-[40px] font-IntegralCF;
   }
 
   h2 {
-    @apply text-[28px];
+    @apply text-[28px] font-bold font-DMSans;
   }
 
   h4 {
-    @apply text-[20px];
+    @apply text-[20px] font-bold font-DMSans;
   }
 }
 
@@ -36,6 +36,10 @@
 @layer components {
   .btn {
     @apply rounded-full py-4 px-8 font-DMSans text-xs font-bold;
+  }
+
+  .btn-large {
+    @apply rounded-full py-5 px-10 font-AvertaDemoPE text-xl font-normal;
   }
 
   .commonBtn {
