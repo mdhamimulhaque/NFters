@@ -104,9 +104,9 @@ const TopCollections = () => {
     ]
     return (
         <div className='mt-[120px] xl:px-[120px]'>
-            <div className='section-area-grid'>
-                <section className="col-span-8 flex gap-10">
-                    <div className='large_card_area'>
+            <div className='md:section-area-grid px-5'>
+                <section className="col-span-12 xl:col-span-8 flex justify-around xl:justify-start gap-2  xl:gap-8 flex-col md:flex-row">
+                    <div className='large_card_area mb-10'>
                         <div className='bg-line_gray rounded-2xl'>
                             <img src={Img1} alt="img" className='transform hover:rotate-90 hover:scale-75 transition duration-300' />
                         </div>
@@ -134,7 +134,7 @@ const TopCollections = () => {
                     <div className='small_card_area flex flex-col gap-8'>
                         {
                             userData.map(user =>
-                                <div className='flex gap-4'>
+                                <div className='flex gap-2 lg:gap-10 xl:gap-4'>
                                     <div className='bg-line_gray rounded-2xl'>
                                         <img src={user.cardImg} alt="img" className='transform  hover:rotate-45 transition duration-300' />
                                     </div>
@@ -156,7 +156,7 @@ const TopCollections = () => {
                     </div>
                 </section>
 
-                <aside className="col-span-4 border-l border-collection_border pl-12">
+                <aside className="col-span-12 xl:col-span-4 border-l border-collection_border pl-2 md:pl-12 mt-10 md:mt-0">
                     <article className='mb-5'>
                         <h4 className='font-IntegralCF '>Top Collections over </h4>
                         <p className='text-primary font-bold text-lg'>Last 7 days</p>
