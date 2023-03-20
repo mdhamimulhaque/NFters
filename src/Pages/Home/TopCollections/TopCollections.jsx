@@ -45,7 +45,10 @@ const TopCollections = () => {
             <div className='section-area-grid'>
                 <section className="col-span-8 flex gap-10">
                     <div className='large_card_area'>
-                        <img src={Img1} alt="img" />
+                        <div className='bg-light_bg rounded-2xl'>
+                            <img src={Img1} alt="img" className='transform hover:rotate-90 hover:scale-75 transition duration-300' />
+                        </div>
+
                         <div className="flex justify-between mt-8">
                             <article className='flex gap-2'>
                                 <div>
@@ -84,7 +87,10 @@ const TopCollections = () => {
 
                     </div>
                 </section>
-                <section className="col-span-4">h</section>
+
+                <section className="col-span-4">
+
+                </section>
             </div>
         </div>
     );
