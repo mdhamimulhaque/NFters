@@ -163,7 +163,7 @@ const TopCollections = () => {
                     </article>
                     {
                         topCollectionsData.map((data, index) =>
-                            <section key={data.id} className='flex items-center gap-6 border-b border-collection_border py-5'>
+                            <section key={data.id} className='flex items-center gap-6 border-b border-collection_border py-5 last:border-b-0'>
                                 <span className='text-2xl font-DMSans font-bold'>{index + 1}</span>
                                 <div className='relative'>
                                     <img src={data.img} alt="img" />
