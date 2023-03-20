@@ -30,3 +30,27 @@
     @apply text-[20px];
   }
 }
+
+
+/* ---components--- */
+@layer components {
+  .btn {
+    @apply rounded-full py-4 px-8 font-DMSans text-xs font-bold;
+  }
+
+  .commonBtn {
+    @apply bg-primary text-white;
+  }
+
+  .commonBtn-outLate {
+    @apply border-2 border-primary text-primary;
+  }
+
+  .commonBtnWhite-outLate {
+    @apply border-2 border-white text-white;
+  }
+
+  .search-input {
+    @apply max-w-[300px] w-full rounded-full bg-transparent outline-none border-2 border-line_gray text-light_gray py-3.5 px-7 text-base font-medium;
+  }
+}
