@@ -11,7 +11,7 @@ import DOT from '../../../assets/images/Dot.png';
 
 const TopHeroSection = () => {
     return (
-        <div className='section-area-grid'>
+        <div className='md:section-area-grid px-5'>
             <section className='col-span-12 lg:col-span-5 xl:col-span-6 relative'>
                 <h1 className='max-w-[320px] md:max-w-[612px] w-full '>Discover, and collect Digital Art  NFTs </h1>
                 <p className='max-w-[320px] md:max-w-[471px] w-full text-lg md:text-xl text-deep_gray font-DMSans pt-5 pb-10'>Digital marketplace for crypto collectibles and non-fungible tokens (NFTs). Buy, Sell, and discover exclusive digital assets.</p>
@@ -33,7 +33,7 @@ const TopHeroSection = () => {
                 <img src={DOT} alt="img" className='absolute left-[-50px] bottom-2 z-[-10]' />
             </section>
 
-            <section className='col-span-12 lg:col-span-7 xl:col-span-6'>
+            <section className='col-span-12 lg:col-span-7 xl:col-span-6 mt-[30px]'>
                 <div className='flex justify-start md:justify-center xl:justify-end'>
                     <div className="card_img_1 z-10 relative">
                         <div className='relative'>
@@ -62,8 +62,9 @@ const TopHeroSection = () => {
                                     </div>
                                 </div>
                             </div>
+
                             <div className='absolute left-[-25px] md:left-[-65px] bottom-28'>
-                                <img src={Level} alt="img" className='w-16 md:w-full' />
+                                <img src={Level} alt="img" className='w-16 md:w-full animate-spin spin' />
                             </div>
 
                         </div>

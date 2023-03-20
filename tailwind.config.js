@@ -22,6 +22,9 @@ module.exports = {
         Roboto: ["Roboto", "sans-serif"],
         IntegralCF: ["Integral CF", "sans-serif"],
         AvertaDemoPE: ["Averta Demo PE Cutted Demo", "sans-serif"],
+      },
+      animation: {
+        spin: 'spin 5s linear infinite',
       }
     },
   },
