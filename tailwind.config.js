@@ -14,7 +14,11 @@ module.exports = {
         deep_gray: "#565656",
         text_deep_light_gray: "#696969",
         glass: "rgba(255, 255, 255, 0.2)",
-        light_bg: "#D9E0EC33"
+        light_bg: "#D9E0EC33",
+        light_text: "#363639",
+        liter_text: "#757575",
+        dark_Gray_text: "#3A3A3A",
+        custom_green: "#00AC4F"
       },
 
       fontFamily: {
